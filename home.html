@@ -10,7 +10,9 @@
 <!--The text between <title> and </title> provides a title for the document-->
 <title>Just Party</title>
 <!--The HTML <meta> element is also meta data. It can be used to define the character set, and other information about the HTML document.-->
-<meta charset="UTF-8">
+<meta charset="UTF-8"> 
+<style> p#p1 { border:1px solid black; padding:10px; margin:30px;} </style>
+<style> pre.A { border:1px solid black; padding:10px; margin:30px;} </style>
 </head>
 <!--The text between <body> and </body> describes the visible page content-->
 <body style="background-color:lightgrey">
@@ -23,8 +25,8 @@
 <h6 style="color:red">Soon <i>partying</i> will be made hassle free.</h6>
 <!--The text between <p> and </p> describes a paragraph-->
 <!--When you move the mouse over the element, the title will be displayed as a tooltip.-->
-<p><strong>Abhishek Jain</strong> <b>needs to work hard.</b></p>
-<pre title="Action"><a href="/cpanel">Go Abhishek.</a></pre>
+<p id="p1"><strong>Abhishek Jain</strong> <b>needs to work hard.</b></p>
+<pre class="A" title="Action"><a href="/cpanel">Go Abhishek.</a></pre>
 
 </body>
 </html>
@@ -59,7 +61,7 @@ value	Specifies the value (text content) for an input element.-->
 The browser will remove extra spaces and extra lines when the page is displayed.
 Any number of spaces, and any number of new lines, count as only one space.-->
 
-<!--The HTML <pre> element defines preformatted text. The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks-->
+<!--The HTML <pre> element defines pre formatted text. The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks-->
 
 <!--Every HTML element has a default style (background color is white and text color is black).-->
 <!--style="property:value"-->
@@ -73,3 +75,16 @@ Any number of spaces, and any number of new lines, count as only one space.-->
 <!--<address> for Contact Information          -->
 <!--<cite> for Work Title                      -->
 <!--<bdo dir="rtl"> for Bi-Directional Override-->
+
+<!--<code>	Defines programming code        -->
+<!--<kbd>	Defines keyboard input          -->
+<!--<samp>	Defines computer output         -->
+<!--<var>	Defines a mathematical variable -->
+<!--<pre>	Defines preformatted text       -->
+
+<!-- Styling can be added to HTML elements in 3 ways: Inline - using a style
+attribute in HTML elements Internal - using a <style> element in the HTML
+<head> section External - using one or more external CSS files
+element { property:value; property:value }-->
+
+<!--<link rel="stylesheet" href="styles.css">-->
