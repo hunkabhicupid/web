@@ -1,93 +1,57 @@
-<!--The DOCTYPE declaration defines the document type to be HTML-->
-<!--HTML5-->
 <!DOCTYPE html>
-<!--The text between <html> and </html> describes an HTML document-->
-<!--Attributes provide additional information about HTML elements.-->
-<!--The first two letters specify the language (en). If there is a dialect, use two more letters (US).-->
 <html lang="en-US">
-<!--The text between <head> and </head> provides information about the document-->
 <head>
-<!--The text between <title> and </title> provides a title for the document-->
-<title>Just Party</title>
-<!--The HTML <meta> element is also meta data. It can be used to define the character set, and other information about the HTML document.-->
-<meta charset="UTF-8"> 
-<style> p#p1 { border:1px solid black; padding:10px; margin:30px;} </style>
-<style> pre.A { border:1px solid black; padding:10px; margin:30px;} </style>
-</head>
-<!--The text between <body> and </body> describes the visible page content-->
-<body style="background-color:lightgrey">
-<!--The text between <h1> and </h1> describes a heading-->
-<h1 style="color:red">Soon partying will be made hassle free.</h1>
-<h2 style="color:red">Soon partying will be made hassle free.</h2>
-<h3 style="color:red">Soon partying will be made hassle free.</h3>
-<h4 style="color:red">Soon <em>partying</em> will be made hassle free.</h4>
-<h5 style="color:red">Soon <i>partying</i> will be made hassle free.</h5>
-<h6 style="color:red">Soon <i>partying</i> will be made hassle free.</h6>
-<!--The text between <p> and </p> describes a paragraph-->
-<!--When you move the mouse over the element, the title will be displayed as a tooltip.-->
-<p id="p1"><strong>Abhishek Jain</strong> <b>needs to work hard.</b></p>
-<pre class="A" title="Action"><a href="/cpanel">Go Abhishek.</a></pre>
 
+<title>Happy Birthday!!</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Abhishek Jain" />
+
+<link rel="stylesheet" href="bootstrap\dist\css\bootstrap.min.css">
+<!-- CUSTOM STYLES -->
+<link href="assets/css/style.css" rel="stylesheet" />
+<script src="bootstrap\js\tests\vendor\jquery.min.js"></script>
+<script src="bootstrap\dist\js\bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/birthday-logo.png" alt="" class="img-responsive" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav ">
+                    <li><a href="#invite">INVITATION</a></li>
+                    <li><a href="#cakes">MONTH BIRTHDAYS</a></li>                    
+                    <li><a href="#venue">VENUE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+	<!-- NAVBAR CODE END -->
+    <div id="invite">
+        <div>
+            <div class="container">
+                <div class="col-md-3">
+                </div>			
+                <div class="col-md-6 text-center overlay">
+                    <h1>SO MUCH FUN, AMISHI IS TURNING ONE!!!</h1>
+                    <h2>Celebrate With Us</h2>
+                </div>
+                <div class="col-md-3">
+                </div>							
+            </div>
+        </div>
+    </div>
+    <!--HOME SECTION END  -->	
 </body>
 </html>
-
-<!--The purpose of a web browser (Chrome, IE, Firefox, Safari) is to read HTML documents and display them.
-The browser does not display the HTML tags, but uses them to determine how to display the document:-->
-
-<!--Name the file "index.html" or any other name ending with html or htm.
-UTF-8 is the preferred encoding for HTML files.-->
-
-<!--The alt attribute specifies an alternative text to be used, when an HTML element cannot be displayed.-->
-<!--<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">-->
-
-<!--<br> is an empty element without a closing tag (the <br> tag defines a line break).
-Empty elements can be "closed" in the opening tag like this: <br />.-->
-
-<!--Attributes provide additional information about HTML elements.-->
-
-<!--In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:-->
-
-<!--
-disabled	Specifies that an input element should be disabled
-id	Specifies a unique id for an element
-style	Specifies an inline CSS style for an element
-value	Specifies the value (text content) for an input element.-->
-
-<!--The <hr> tag creates a horizontal line in an HTML page.-->
-
-<!--The HTML <style> element is used to define internal CSS style sheets. The HTML <link> element is used to define external CSS style sheets.-->
-
-<!--With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
-The browser will remove extra spaces and extra lines when the page is displayed.
-Any number of spaces, and any number of new lines, count as only one space.-->
-
-<!--The HTML <pre> element defines pre formatted text. The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks-->
-
-<!--Every HTML element has a default style (background color is white and text color is black).-->
-<!--style="property:value"-->
-<!--Other properties like "font-size:300%" "font-family:verdana" "text-align:center"-->
-
-<!--Others being: <small> <mark> <del> <ins> <sub> <sup>-->
-
-<!--<q> for Short Quotations                   -->
-<!--<blockquote> for Long Quotations           -->
-<!--<abbr> for Abbreviations                   -->
-<!--<address> for Contact Information          -->
-<!--<cite> for Work Title                      -->
-<!--<bdo dir="rtl"> for Bi-Directional Override-->
-
-<!--<code>	Defines programming code        -->
-<!--<kbd>	Defines keyboard input          -->
-<!--<samp>	Defines computer output         -->
-<!--<var>	Defines a mathematical variable -->
-<!--<pre>	Defines preformatted text       -->
-
-<!-- Styling can be added to HTML elements in 3 ways: Inline - using a style
-attribute in HTML elements Internal - using a <style> element in the HTML
-<head> section External - using one or more external CSS files
-element { property:value; property:value }-->
-
-<!--<link rel="stylesheet" href="styles.css">-->
-
-<!--http://getbootstrap.com/-->
-<!--http://startbootstrap.com/-->
